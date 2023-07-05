@@ -1,0 +1,136 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0px 0px 42px;
+}
+
+.header-link {
+    color: #17233d;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    line-height: 21px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.sign-up-bnt {
+    color: #fff;
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 16px;
+    background-color: #6FBF44;
+    border: 1px solid #4CB538;
+    height: 51px;
+    width: 124px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+.logo-image {
+    height: 500px;
+    width: 595px;
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-bottom: 103px;
+    margin-left: 85px;
+    width: 493px;
+}
+
+.title {
+    color: #161A49;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+}
+
+.desc-text {
+    color: #4B505A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin: 47px 0px 55px 0px;
+}
+
+section button {
+    color: #6FBF44;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    border: none;
+    background-color: #fff;
+}
+
+@media (max-width: 391px) {
+    .header-link {
+        display: none;
+    }
+
+    .logo-image {
+        height: 288px;
+        width: 312px;
+        margin: 0;
+        position: absolute;
+        top: 55%;
+        margin: 0px 39px;
+    }
+    
+    .title {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        width: 278px;
+        height: 60px;
+        margin: 0 56px;
+    }
+
+    section {
+        margin: 0;
+        width: 100vw;
+        position: static;
+    }
+
+    .desc-text {
+        text-align: center;
+        width: 304px;
+        height: 165px;
+        margin: 15px 43px;
+    }
+
+    main {
+        height: 100vh;
+        width: 100vw;
+    }
+
+
+    header {
+        margin: 0;
+    }
+
+    .sign-up-bnt {
+        float: right;
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: normal;
+        margin: 20px 20px 50px 0;
+    }
+
+    section button {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
